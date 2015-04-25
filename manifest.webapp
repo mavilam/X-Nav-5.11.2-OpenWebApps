@@ -1,0 +1,20 @@
+{
+	"name": "Map",
+	"description" : "A locator",
+	"launch_path" : "/index.html",
+	"default_locale" : "en",
+	"version" : "1.0",
+	"developer": {
+		"name" : "Miguel Avila",
+		"url"  : "google.com"
+	},
+	"permissions" : {
+		"geolocation" : {
+			"description" : "Access to your position"
+		}
+	},
+	"chrome" : {
+		"navigation" : true
+	}
+} 
+		
